@@ -102,30 +102,15 @@ import Icon from 'react-native-vector-icons/FontAwesome';
             <Icon
               name="google"
               size={22}
-              color="orange"
+              color="red"
             />
           }
        
               onPress={() => this.signInWithGoogleAsync()}
-              title=" sign In with Google"
-              color="orange"
+              title=" Google"
+              backgroundColor="red"
 /> 
         
-         {/* <Button
-            style={styles.buttonFacebook}
-           icon={
-            <Icon
-              name="facebook"
-              size={22}
-              color="blue"
-            />
-          }
-       
-              onPress={() => this.signInWithGoogleAsync()}
-              title=" sign In with Facebook"
-              color="orange"
-/>  */}
-
 
 
             </View> 
@@ -136,7 +121,7 @@ const styles = StyleSheet.create({
 
     container: {
       flex: 1,
-      backgroundColor: 'lightblue',
+      backgroundColor: 'lightgreen',
       alignItems: 'center',
       justifyContent: 'center',
 },
@@ -144,19 +129,12 @@ buttonGoogle: {
     paddingHorizontal: 10,
     paddingVertical: 10,
     borderRadius: 5,
-    width:'70%', 
+    width:'80%', 
     color: '#ffffff',
-    backgroundColor: 'transparent',
+    backgroundColor: 'green',
     marginBottom:1   
   },
 
-  buttonFacebook: {
-    backgroundColor: 'orange',
-    paddingHorizontal: 10,
-    paddingVertical: 10,
-    borderRadius: 5,
-    width:'50%',    
-  },
 
   logo: {
     width: 340,

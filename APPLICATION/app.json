@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Currency-Management",
-    "slug": "Currency-Management",
+    "name": "Forex",
+    "slug": "Forex",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
