@@ -1,12 +1,12 @@
 {
   "expo": {
-    "name": "Forex",
-    "slug": "Forex",
+    "name": "forex",
+    "slug": "forex",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/logo.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -20,6 +20,8 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "forex.json",
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "627544055038",
+    "firebase_url": "https://forex-55ac6-default-rtdb.firebaseio.com",
+    "project_id": "forex-55ac6",
+    "storage_bucket": "forex-55ac6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:627544055038:android:639b003e73ad49efacd9af",
+        "android_client_info": {
+          "package_name": "forex.json"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "627544055038-gjrek3b05rgfkj5fk3ecgjiipd2iqnhn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "forex.json",
+            "certificate_hash": "2c45e2c6249a2ffb905570b1b526f572b4a1bdcb"
+          }
+        },
+        {
+          "client_id": "627544055038-cqb8f7gv2btdq5fu2qnhjan959epainh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEvy_43WYK4ErJVuw4JEWKjYHHswDlHSI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "627544055038-cqb8f7gv2btdq5fu2qnhjan959epainh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
