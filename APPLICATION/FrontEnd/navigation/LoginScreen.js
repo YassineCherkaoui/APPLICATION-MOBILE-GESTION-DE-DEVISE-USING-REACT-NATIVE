@@ -24,7 +24,7 @@ const LoginScreen = ({ navigation }) => {
         console.log("LoginScreen.js 17 | success, navigating to profile");
         // loginResult.user.name
 
-        axios.post("http://localhost:8080/api/user/signUp", userData).then(() => {
+        axios.post("https://forexbackend.herokuapp.com/api/user/signUp", userData).then(() => {
           console.log("data inserted")
         })
         .catch((e) => {

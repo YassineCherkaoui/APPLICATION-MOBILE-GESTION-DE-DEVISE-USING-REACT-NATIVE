@@ -16,7 +16,7 @@ const ChartScreen = ({ navigation, route }) => {
     const buyFun = () => {
         let GetUserData = {email: userData.email, price: cryptoPrice}
 
-        axios.post("http://localhost:8080/api/user/buy", GetUserData).then(() => {
+        axios.post("https://forexbackend.herokuapp.com/api/user/buy", GetUserData).then(() => {
             console.log("data updated")
           })
           .catch((e) => {
@@ -26,7 +26,7 @@ const ChartScreen = ({ navigation, route }) => {
     const sellFun = () => {
         let GetUserData = {email: userData.email, price: cryptoPrice}
 
-        axios.post("http://localhost:8080/api/user/sell", GetUserData).then(() => {
+        axios.post("https://forexbackend.herokuapp.com/api/user/sell", GetUserData).then(() => {
             console.log("data updated")
           })
           .catch((e) => {

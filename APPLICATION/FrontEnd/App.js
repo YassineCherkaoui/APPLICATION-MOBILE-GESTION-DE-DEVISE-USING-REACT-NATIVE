@@ -35,5 +35,3 @@ const styles = StyleSheet.create({
     justifyContent: "center"
   },
 })
-
-// firebase@^5.7.3

@@ -14,7 +14,7 @@ const WalletNav = ({ navigation, route }) => {
     const [Sold, SetSold] = useState([])
 
     const getWalletValue = async () => {
-        await axios.get(`http://localhost:8080/api/user/info/${userData.email}`).then((walletdata) => {
+        await axios.get(`https://forexbackend.herokuapp.com/api/user/info/${userData.email}`).then((walletdata) => {
             SetWallet(walletdata.data.walletSold)
             SetSold(walletdata.data.sold)
         })
