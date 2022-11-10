@@ -1,5 +1,3 @@
-https://www.youtube.com/watch?v=TjPrxcDnadI&list=PL89-aj_PJ4ULyW7oyu3mRWrNWIiioHdgb&index=8
-
 npm i --save react-navigation react-navigation-drawer react-navigation-stack
 
 npm i --save react-native-gesture-handler react-native-reanimated react-native-screens
